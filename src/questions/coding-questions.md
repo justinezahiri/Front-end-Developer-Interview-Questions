@@ -43,11 +43,15 @@ Question: What value is returned from the following statement?
   .join("");
 ```
 
+Answer: 'goh angasal a m\'i'
+
 Question: What is the value of `window.foo`?
 
 ```javascript
 window.foo || (window.foo = "bar");
 ```
+
+Answer: always 'bar'
 
 Question: What is the outcome of the two alerts below?
 
@@ -59,6 +63,10 @@ var foo = "Hello";
 })();
 alert(foo + bar);
 ```
+
+Answer: Answer:
+First: Hello World
+Second: Throws an exception, ReferenceError: bar is not defined
 
 Question: What is the value of `foo.length`?
 
